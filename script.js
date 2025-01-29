@@ -3,19 +3,19 @@ class Animal {
 	constructor(species){
 		this.species = species;
 	}
-	function makeSound(){
+	 makeSound(){
 		console.log(`The ${this.species} makes a sound`);
 	}
 }
 
 class Dog extends Animal {
-	function purr(){
+	 bark(){
 		console.log("purr");
 	}
 }
 
 class Cat extends Animal {
-	function bark(){
+	purr(){
 		console.log("woof");
 	}
 }
